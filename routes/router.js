@@ -101,5 +101,8 @@ const userExists = async (Email) => {
     }
 }
 
-
+//This is commit
+router.get('/',(req,res)=>{
+    res.send("Hello")
+})
 module.exports = router;
